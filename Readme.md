@@ -25,6 +25,8 @@ STEP_BUTTON     = C15;
 RESET_BUTTON    = C12;
 ```
 
+The code doesn't set up any pull-ups and so all switches and buttons need external pull-ups (or all pins wired on DPST switches) or you could add in the code to do it, I did this in a hurry and so didn't add it.
+
 ##Copyright, etc:
 
 Copyright Daniel Bailey and Nick Moriarty 2015
