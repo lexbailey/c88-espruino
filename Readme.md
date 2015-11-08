@@ -31,4 +31,9 @@ The code doesn't set up any pull-ups and so all switches and buttons need extern
 
 Copyright Daniel Bailey and Nick Moriarty 2015
 
+This software is distributed under the GNU Lesser General Public Licence
+
+Details here: http://www.gnu.org/licenses/lgpl.html
+
+
 Nick's original JS simulator repo is here: https://github.com/aquila12/c88-js
