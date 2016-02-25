@@ -75,8 +75,8 @@ function c88()
 
   this.instr[28]= function(i) { this.reg += 1; };		// INC
   this.instr[29]= function(i) { this.reg -= 1; };		// DEC
-  this.instr[30]= function(i) { this.reg *= 2; };		// DOUBLE
-  this.instr[31]= function(i) { this.reg /= 2; };		// HALF
+  this.instr[30]= function(i) { this.reg = signed(this.reg) * 2; };		// DOUBLE
+  this.instr[31]= function(i) { this.reg = signed(this.reg) / 2; };		// HALF
 
   this.debug = [];
 
